@@ -1,1 +1,13 @@
-<h1>Test Home HTML page!!!</h1>
+<h1>{{title}}</h1>
+
+<form method='POST' action='' >
+
+    {{form.as_p}}
+
+    <input type="submit" value="Sign Up" />{% csrf_token %}
+
+</form>
+
+
+<h3>{{user}}</h3>
+<p>Last method on this page was {{request.method}}.</p>
