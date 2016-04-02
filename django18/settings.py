@@ -27,6 +27,15 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'tombotesto@gmail.com'
+EMAIL_HOST_PASSWORD = '{%r4#{>32%L#3$7F9=34'
+#DEFAULT_FROM_EMAIL = 'tombotesto@gmail.com'
+#DEFAULT_TO_EMAIL = 'tombotesto@gmail.com'
+
 # Application definition
 
 INSTALLED_APPS = (
